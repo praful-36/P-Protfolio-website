@@ -320,7 +320,7 @@ header {
 }
 
 .details-img{
-    filter: drop-shadow(28px 6px 5px rgb(31, 31, 31));
+    filter: drop-shadow(33px 10px 3px rgb(17, 17, 17));
 }
 
 .details-icons{
@@ -334,7 +334,7 @@ header {
 
 .details .text-details h2 {
     font-size: 35px;
-    color: rgb(220, 251, 252);
+    color: rgb(116, 244, 249);
 }
 
 .details .text-details h5 {
@@ -366,10 +366,6 @@ header {
     font-size: 20px;
 }
 
-.faq-question:hover {
-    color: rgb(113, 255, 255);
-
-}
 
 .faq-answer {
     display: none;
@@ -396,6 +392,7 @@ header {
     margin-right: 10px;
     font-size: 20px;
 }
+
 
 .toggle-button:hover {
     cursor: pointer;
@@ -425,23 +422,25 @@ header {
 }
 
 .footer-text p {
-    margin: 23px 0;
+    margin: 10px 0;
     font-size: 23px;
     text-align: center;
 }
 
+
+
 .socials {
     display: flex;
     padding: 0 0rem;
-    cursor: pointer;
     justify-content: center;
     margin: 0;
-    filter: drop-shadow(14px 10px 3px rgb(31, 31, 31));
+    filter: drop-shadow(12px 7px 3px rgb(15, 15, 15));
 }
 
 .socials li {
     list-style: none;
     padding: 23px 12px;
+    cursor: pointer;
 }
 
 .socials img {
